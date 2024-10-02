@@ -1,0 +1,15 @@
+{
+  "name": "swiper/wp-rchr",
+  "authors": [
+    {
+      "name": "rchr"
+    }
+  ],
+  "scripts": {
+    "test": "./vendor/bin/phpunit tests"
+  },
+  "version": "1.0.0",
+  "require-dev": {
+    "phpunit/phpunit": "^11.3"
+  }
+}
