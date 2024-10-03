@@ -1,6 +1,7 @@
 <?php
 include __DIR__ . '/includes/dev-shortcode.php';
 include __DIR__ . '/includes/dev-menu-page.php';
+include __DIR__ . '/includes/api.php';
 /**
  * Plugin Name: wp-rchr-swiper
  * Description: 뤼초록에서 개발한 스와이퍼입니다.
