@@ -1,6 +1,5 @@
 <?php
-include __DIR__ . '/includes/dev-shortcode.php';
-include __DIR__ . '/includes/dev-menu-page.php';
+include __DIR__ . '/includes/admin-screens.php';
 include __DIR__ . '/includes/api.php';
 /**
  * Plugin Name: wp-rchr-swiper

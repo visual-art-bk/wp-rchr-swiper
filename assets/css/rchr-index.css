@@ -1,4 +1,15 @@
-.rchr-swiper-admin-menu {
-  background-color: lightblue;
-  max-width: 1200px;
+* {
+  box-sizing: border-box;
+}
+
+body,
+button,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: none;
 }
