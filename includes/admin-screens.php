@@ -1,10 +1,11 @@
 <?php
+
 /**
  * Admin menu page
  */
 function admin_menu_page()
 {
-    $menu_title = '뤼초록 스와이퍼';
+    $menu_title = '뤼초록';
     $capability = 'manage_options';
 
     // @TODO[rser32] change temp to the icon.
@@ -25,6 +26,9 @@ add_action('admin_menu', 'admin_menu_page');
 function render_admin_page_root_element()
 {
 ?>
+    <?php
+    echo  ABSPATH;
+    ?>
     <div id="wpRchrSwpDashboardRoot"></div>
 <?php
 }

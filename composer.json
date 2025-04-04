@@ -10,6 +10,8 @@
   },
   "version": "1.0.0",
   "require-dev": {
-    "phpunit/phpunit": "^11.3"
+    "phpunit/phpunit": "^11.3",
+    "wp-phpunit/wp-phpunit": "^6.6",
+    "yoast/phpunit-polyfills": "^3.0"
   }
 }
