@@ -27,9 +27,18 @@ function render_admin_page_root_element()
 {
 ?>
     <?php
-    echo  ABSPATH;
+  
     ?>
-    <div id="wpRchrSwpDashboardRoot"></div>
+    <div id="rchrDashboardRoot">
+        <h1>뤼초록 랩</h1>
+        <h3>해당 플러그은 네이버 블로그 게시물을 가져와서 카페24로 전달합니다.</h3>
+        <h4>개발사: 뤼초록</h4>
+        <h4>담당자: 김병관</h4>
+        <h4>이메일: support@rchr-lab.store</h4>
+        <h4>전화: 070-8080-2976</h4>
+        <h4>플러그인 버전: 1.0.0</h4>
+        <h4>최종변경일: 2025 04 08</h4>
+    </div>
 <?php
 }
 
